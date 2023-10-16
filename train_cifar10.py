@@ -38,7 +38,7 @@ parser.add_argument('--aug', action='store_true', help='add image augumentations
 parser.add_argument('--mixup', action='store_true', help='add mixup augumentations')
 parser.add_argument('--net', default='vit')
 parser.add_argument('--bs', default='64')
-parser.add_argument('--n_epochs', type=int, default='100')
+parser.add_argument('--n_epochs', type=int, default='5')
 parser.add_argument('--patch', default='4', type=int)
 parser.add_argument('--cos', action='store_true', help='Train with cosine annealing scheduling')
 args = parser.parse_args()
